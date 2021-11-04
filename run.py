@@ -165,7 +165,8 @@ $(document).ready(function() {
 </script>
 </head>
 <body>
-<p>This information is from <a href="https://jag-icpc.org/?2021%%2FTeams%%2FList">https://jag-icpc.org/?2021%%2FTeams%%2FList</a> (Last Update: %s)</p>
+<p>This information is from <a href="https://jag-icpc.org/?2021%%2FTeams%%2FList">https://jag-icpc.org/?2021%%2FTeams%%2FList</a> (Last Update: %s).</p>
+<p>The team ratings are calculated based on <a href="https://codeforces.com/blog/entry/16986">https://codeforces.com/blog/entry/16986</a>.</p>
 <p><b>情報の真偽に対する一切の責任を負いません</b></p>
 %s
 </body>
