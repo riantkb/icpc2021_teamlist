@@ -70,7 +70,8 @@ def getUserRate(username):
     if response.status_code != requests.codes.ok:
         return 0
 
-    return int(pd.read_html(response.text)[1].iloc[1, 1])
+    df = pd.read_html(response.text)[1]
+    return int(df[df[0] == 'Rating'].iloc[0, 1])
 
 
 def getUserSpan(username):
