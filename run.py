@@ -69,9 +69,14 @@ def getUserRate(username):
     response = fetchUserPage(ulink)
     if response.status_code != requests.codes.ok:
         return 0
-
-    df = pd.read_html(response.text)[1]
-    return int(df[df[0] == 'Rating'].iloc[0, 1])
+    df = pd.read_html(response.text)
+    if len(df) < 2:
+        # unrated user
+        return 0
+    rating = df[1][df[1][0] == 'Rating'].iloc[0, 1]
+    if '(Provisional)' in rating:
+        rating = rating.replace('(Provisional)', '').replace(' ', '')
+    return int(rating)
 
 
 def getUserSpan(username):
