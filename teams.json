@@ -1,261 +1,275 @@
 {
     "nowcow": [
-        "<span class=\"user-orange\">nowcow (2577)</span>",
-        "<a href=\"https://atcoder.jp/users/olphe\"><span class=\"user-orange\">olphe</span></a>",
-        "<a href=\"https://atcoder.jp/users/Div9851\"><span class=\"user-yellow\">Div9851</span></a>",
-        "<a href=\"https://atcoder.jp/users/nrvft\"><span class=\"user-yellow\">nrvft</span></a>",
+        "<span class=\"user-orange\">2577</span>",
+        "<span class=\"user-orange\">olphe</span>",
+        "<span class=\"user-yellow\">Div9851</span>",
+        "<span class=\"user-yellow\">nrvft</span>",
         "ferin"
     ],
     "Give us sociability": [
-        "<span class=\"user-orange\">Give us sociability (2527)</span>",
-        "<a href=\"https://atcoder.jp/users/KKT89\"><span class=\"user-yellow\">KKT89</span></a>",
-        "<a href=\"https://atcoder.jp/users/Hyado\"><span class=\"user-yellow\">Hyado</span></a>",
-        "<a href=\"https://atcoder.jp/users/hotman78\"><span class=\"user-orange\">hotman78</span></a>",
-        "<a href=\"https://atcoder.jp/users/nagiss\"><span class=\"user-yellow\">nagiss</span></a>"
+        "<span class=\"user-orange\">2527</span>",
+        "<span class=\"user-yellow\">KKT89</span>",
+        "<span class=\"user-yellow\">Hyado</span>",
+        "<span class=\"user-orange\">hotman78</span>",
+        "<span class=\"user-yellow\">nagiss</span>"
     ],
     "UHISHIRO": [
-        "<span class=\"user-orange\">UHISHIRO (2424)</span>",
-        "<a href=\"https://atcoder.jp/users/siro53\"><span class=\"user-blue\">siro53</span></a>",
-        "<a href=\"https://atcoder.jp/users/suta\"><span class=\"user-yellow\">suta</span></a>",
-        "<a href=\"https://atcoder.jp/users/kiyoshi0205\"><span class=\"user-yellow\">kiyoshi0205</span></a>",
+        "<span class=\"user-orange\">2424</span>",
+        "<span class=\"user-blue\">siro53</span>",
+        "<span class=\"user-yellow\">suta</span>",
+        "<span class=\"user-yellow\">kiyoshi0205</span>",
         ""
     ],
     "Puchi Pu President": [
-        "<span class=\"user-blue\">Puchi Pu President (1761)</span>",
-        "<a href=\"https://atcoder.jp/users/ntk_ta01\"><span class=\"user-cyan\">ntk_ta01</span></a>",
-        "<a href=\"https://atcoder.jp/users/petite_prog\"><span class=\"user-blue\">petite_prog</span></a>",
-        "<a href=\"https://atcoder.jp/users/Nishi3311\"><span class=\"user-green\">Nishi3311</span></a>",
+        "<span class=\"user-blue\">1761</span>",
+        "<span class=\"user-cyan\">ntk_ta01</span>",
+        "<span class=\"user-blue\">petite_prog</span>",
+        "<span class=\"user-green\">Nishi3311</span>",
         ""
     ],
     "appeared": [
-        "<span class=\"user-yellow\">appeared (2124)</span>",
-        "<a href=\"https://atcoder.jp/users/asdf1\"><span class=\"user-blue\">asdf1</span></a>",
-        "<a href=\"https://atcoder.jp/users/ecasdqina\"><span class=\"user-yellow\">ecasdqina</span></a>",
-        "<a href=\"https://atcoder.jp/users/shinchan\"><span class=\"user-blue\">shinchan</span></a>",
+        "<span class=\"user-yellow\">2124</span>",
+        "<span class=\"user-blue\">asdf1</span>",
+        "<span class=\"user-yellow\">ecasdqina</span>",
+        "<span class=\"user-blue\">shinchan</span>",
         ""
     ],
     "tonosama": [
-        "<span class=\"user-red\">tonosama (3204)</span>",
-        "<img src=\"https://img.atcoder.jp/assets/icon/crown_bronze.png\"/> <a href=\"https://atcoder.jp/users/noshi91\"><span class=\"user-red\">noshi91</span></a>",
-        "<img src=\"https://img.atcoder.jp/assets/icon/crown_bronze.png\"/> <a href=\"https://atcoder.jp/users/tatyam\"><span class=\"user-red\">tatyam</span></a>",
-        "<a href=\"https://atcoder.jp/users/goodbaton\"><span class=\"user-yellow\">goodbaton</span></a>",
-        "<a href=\"https://atcoder.jp/users/ninja7\"><span class=\"user-yellow\">ninja7</span></a>"
+        "<span class=\"user-red\">3204</span>",
+        "<img src=\"https://img.atcoder.jp/assets/icon/crown_bronze.png\"/> <span class=\"user-red\">noshi91</span>",
+        "<img src=\"https://img.atcoder.jp/assets/icon/crown_bronze.png\"/> <span class=\"user-red\">tatyam</span>",
+        "<span class=\"user-yellow\">goodbaton</span>",
+        "<span class=\"user-yellow\">ninja7</span>"
     ],
     "MSB": [
-        "<span class=\"user-yellow\">MSB (2301)</span>",
-        "<a href=\"https://atcoder.jp/users/m_tsubasa\"><span class=\"user-yellow\">m_tsubasa</span></a>",
-        "<a href=\"https://atcoder.jp/users/suzuken_w\"><span class=\"user-yellow\">suzuken_w</span></a>",
-        "<a href=\"https://atcoder.jp/users/bayashiko\"><span class=\"user-yellow\">bayashiko</span></a>",
+        "<span class=\"user-yellow\">2301</span>",
+        "<span class=\"user-yellow\">m_tsubasa</span>",
+        "<span class=\"user-yellow\">suzuken_w</span>",
+        "<span class=\"user-yellow\">bayashiko</span>",
         ""
     ],
     "ATELIER 11": [
-        "<span class=\"user-yellow\">ATELIER 11 (2040)</span>",
+        "<span class=\"user-yellow\">2040</span>",
         "\u6bce\u65e5\u9032\u6357",
-        "<a href=\"https://atcoder.jp/users/qLethon\"><span class=\"user-blue\">qLethon</span></a>",
-        "<a href=\"https://atcoder.jp/users/bin101\"><span class=\"user-blue\">bin101</span></a>",
+        "<span class=\"user-blue\">qLethon</span>",
+        "<span class=\"user-blue\">bin101</span>",
         "ferin"
     ],
     "Antitled": [
-        "<span class=\"user-orange\">Antitled (2797)</span>",
-        "<a href=\"https://atcoder.jp/users/maze1230\"><span class=\"user-yellow\">maze1230</span></a>",
-        "<a href=\"https://atcoder.jp/users/SPD_9X2\"><span class=\"user-yellow\">SPD_9X2</span></a>",
-        "<a href=\"https://atcoder.jp/users/tute7627\"><span class=\"user-orange\">tute7627</span></a>",
+        "<span class=\"user-orange\">2797</span>",
+        "<span class=\"user-yellow\">maze1230</span>",
+        "<span class=\"user-yellow\">SPD_9X2</span>",
+        "<span class=\"user-orange\">tute7627</span>",
         ""
     ],
     "diJKstra": [
-        "<span class=\"user-blue\">diJKstra (1764)</span>",
-        "<a href=\"https://atcoder.jp/users/Daylight\"><span class=\"user-blue\">Daylight</span></a>",
-        "<a href=\"https://atcoder.jp/users/littlegirl112\"><span class=\"user-cyan\">littlegirl112</span></a>",
-        "<a href=\"https://atcoder.jp/users/hiiragi589\"><span class=\"user-brown\">hiiragi589</span></a>",
+        "<span class=\"user-blue\">1764</span>",
+        "<span class=\"user-blue\">Daylight</span>",
+        "<span class=\"user-cyan\">littlegirl112</span>",
+        "<span class=\"user-brown\">hiiragi589</span>",
         ""
     ],
     "Christemy": [
-        "<span class=\"user-yellow\">Christemy (2074)</span>",
-        "<a href=\"https://atcoder.jp/users/Chris_wsd\"><span class=\"user-blue\">Chris_wsd</span></a>",
-        "<a href=\"https://atcoder.jp/users/ysystem\"><span class=\"user-blue\">ysystem</span></a>",
-        "<a href=\"https://atcoder.jp/users/ikefumy\"><span class=\"user-yellow\">ikefumy</span></a>",
+        "<span class=\"user-yellow\">2074</span>",
+        "<span class=\"user-blue\">Chris_wsd</span>",
+        "<span class=\"user-blue\">ysystem</span>",
+        "<span class=\"user-yellow\">ikefumy</span>",
         ""
     ],
     "Imperishable": [
-        "<span class=\"user-yellow\">Imperishable (2085)</span>",
-        "<a href=\"https://atcoder.jp/users/Imperi\"><span class=\"user-blue\">Imperi</span></a>",
-        "<a href=\"https://atcoder.jp/users/ebi_fly\"><span class=\"user-blue\">ebi_fly</span></a>",
+        "<span class=\"user-yellow\">2085</span>",
+        "<span class=\"user-blue\">Imperi</span>",
+        "<span class=\"user-blue\">ebi_fly</span>",
         "0214sh7",
-        "<a href=\"https://atcoder.jp/users/ninja\"><span class=\"user-unrated\">ninja</span></a>"
+        "<span class=\"user-unrated\">ninja</span>"
     ],
     "SA-naISt": [
-        "<span class=\"user-blue\">SA-naISt (1748)</span>",
-        "<a href=\"https://atcoder.jp/users/hamray\"><span class=\"user-blue\">hamray</span></a>",
+        "<span class=\"user-blue\">1748</span>",
+        "<span class=\"user-blue\">hamray</span>",
         "U",
-        "<a href=\"https://atcoder.jp/users/gomatamago\"><span class=\"user-green\">gomatamago</span></a>",
-        "<a href=\"https://atcoder.jp/users/yebityon\"><span class=\"user-cyan\">yebityon</span></a>"
+        "<span class=\"user-green\">gomatamago</span>",
+        "<span class=\"user-cyan\">yebityon</span>"
     ],
     "DELIAIR": [
-        "<span class=\"user-orange\">DELIAIR (2658)</span>",
-        "<a href=\"https://atcoder.jp/users/torisasami\"><span class=\"user-orange\">torisasami</span></a>",
-        "<a href=\"https://atcoder.jp/users/tokusakurai\"><span class=\"user-orange\">tokusakurai</span></a>",
-        "<a href=\"https://atcoder.jp/users/sapphire15\"><span class=\"user-yellow\">sapphire15</span></a>",
+        "<span class=\"user-orange\">2658</span>",
+        "<span class=\"user-orange\">torisasami</span>",
+        "<span class=\"user-orange\">tokusakurai</span>",
+        "<span class=\"user-yellow\">sapphire15</span>",
         ""
     ],
     "Cutting Tree": [
-        "<span class=\"user-blue\">Cutting Tree (1864)</span>",
-        "<a href=\"https://atcoder.jp/users/sbite\"><span class=\"user-blue\">sbite</span></a>",
-        "<a href=\"https://atcoder.jp/users/chomonolis\"><span class=\"user-blue\">chomonolis</span></a>",
-        "<a href=\"https://atcoder.jp/users/mizu_yokan\"><span class=\"user-green\">mizu_yokan</span></a>",
-        "<a href=\"https://atcoder.jp/users/leaf1415\"><span class=\"user-orange\">leaf1415</span></a>"
+        "<span class=\"user-blue\">1864</span>",
+        "<span class=\"user-blue\">sbite</span>",
+        "<span class=\"user-blue\">chomonolis</span>",
+        "<span class=\"user-green\">mizu_yokan</span>",
+        "<span class=\"user-orange\">leaf1415</span>"
     ],
     "GridAndGrind": [
-        "<span class=\"user-blue\">GridAndGrind (1705)</span>",
-        "<a href=\"https://atcoder.jp/users/oldlick\"><span class=\"user-blue\">oldlick</span></a>",
-        "<a href=\"https://atcoder.jp/users/hoshino_ken\"><span class=\"user-green\">hoshino_ken</span></a>",
-        "<a href=\"https://atcoder.jp/users/miiifa\"><span class=\"user-green\">miiifa</span></a>",
+        "<span class=\"user-blue\">1705</span>",
+        "<span class=\"user-blue\">oldlick</span>",
+        "<span class=\"user-green\">hoshino_ken</span>",
+        "<span class=\"user-green\">miiifa</span>",
         ""
     ],
     "Highest_Minus484": [
-        "<span class=\"user-yellow\">Highest_Minus484 (2254)</span>",
-        "<a href=\"https://atcoder.jp/users/phocom\"><span class=\"user-yellow\">phocom</span></a>",
-        "<a href=\"https://atcoder.jp/users/firiexp\"><span class=\"user-yellow\">firiexp</span></a>",
-        "<a href=\"https://atcoder.jp/users/t98slider\"><span class=\"user-blue\">t98slider</span></a>",
-        "<a href=\"https://atcoder.jp/users/kenta2997\"><span class=\"user-blue\">kenta2997</span></a>"
+        "<span class=\"user-yellow\">2254</span>",
+        "<span class=\"user-yellow\">phocom</span>",
+        "<span class=\"user-yellow\">firiexp</span>",
+        "<span class=\"user-blue\">t98slider</span>",
+        "<span class=\"user-blue\">kenta2997</span>"
     ],
     "KOMOREBI": [
-        "<span class=\"user-red\">KOMOREBI (2978)</span>",
-        "<img src=\"https://img.atcoder.jp/assets/icon/crown_bronze.png\"/> <a href=\"https://atcoder.jp/users/noimi\"><span class=\"user-red\">noimi</span></a>",
-        "<a href=\"https://atcoder.jp/users/mechanicalpenciI\"><span class=\"user-orange\">mechanicalpenciI</span></a>",
-        "<a href=\"https://atcoder.jp/users/jell\"><span class=\"user-orange\">jell</span></a>",
-        "<img src=\"https://img.atcoder.jp/assets/icon/crown_bronze.png\"/> <a href=\"https://atcoder.jp/users/DEGwer\"><span class=\"user-red\">DEGwer</span></a>"
+        "<span class=\"user-red\">2978</span>",
+        "<img src=\"https://img.atcoder.jp/assets/icon/crown_bronze.png\"/> <span class=\"user-red\">noimi</span>",
+        "<span class=\"user-orange\">mechanicalpenciI</span>",
+        "<span class=\"user-orange\">jell</span>",
+        "<img src=\"https://img.atcoder.jp/assets/icon/crown_bronze.png\"/> <span class=\"user-red\">DEGwer</span>"
     ],
     "Heno World": [
-        "<span class=\"user-red\">Heno World (3239)</span>",
-        "<img src=\"https://img.atcoder.jp/assets/icon/crown_silver.png\"/> <a href=\"https://atcoder.jp/users/heno239\"><span style=\"color:#6BB75B;\">heno239</span></a>",
-        "<a href=\"https://atcoder.jp/users/moririn2528\"><span class=\"user-orange\">moririn2528</span></a>",
-        "<a href=\"https://atcoder.jp/users/yamunaku\"><span class=\"user-orange\">yamunaku</span></a>",
+        "<span class=\"user-red\">3239</span>",
+        "<img src=\"https://img.atcoder.jp/assets/icon/crown_silver.png\"/> <span style=\"color:#6BB75B;\">heno239</span>",
+        "<span class=\"user-orange\">moririn2528</span>",
+        "<span class=\"user-orange\">yamunaku</span>",
         ""
     ],
     "SumimaSenDeshita": [
-        "<span class=\"user-yellow\">SumimaSenDeshita (2020)</span>",
-        "<a href=\"https://atcoder.jp/users/shibh308\"><span class=\"user-yellow\">shibh308</span></a>",
+        "<span class=\"user-yellow\">2020</span>",
+        "<span class=\"user-yellow\">shibh308</span>",
         "hamuheiham",
         "car4ryu",
         ""
     ],
     "JiMEi": [
-        "<span class=\"user-blue\">JiMEi (1645)</span>",
+        "<span class=\"user-blue\">1645</span>",
         "@_shop_one",
-        "<a href=\"https://atcoder.jp/users/longrun\"><span class=\"user-blue\">longrun</span></a>",
-        "<a href=\"https://atcoder.jp/users/GunseiKPaseri\"><span class=\"user-cyan\">GunseiKPaseri</span></a>",
+        "<span class=\"user-blue\">longrun</span>",
+        "<span class=\"user-cyan\">GunseiKPaseri</span>",
         "mint64"
     ],
     "YUPC": [
-        "<span class=\"user-blue\">YUPC (1976)</span>",
-        "<a href=\"https://atcoder.jp/users/myau\"><span class=\"user-blue\">myau</span></a>",
-        "<a href=\"https://atcoder.jp/users/hashimoto76\"><span class=\"user-green\">hashimoto76</span></a>",
-        "<a href=\"https://atcoder.jp/users/mikannnnn\"><span class=\"user-gray\">mikannnnn</span></a>",
+        "<span class=\"user-blue\">1976</span>",
+        "<span class=\"user-blue\">myau</span>",
+        "<span class=\"user-green\">hashimoto76</span>",
+        "<span class=\"user-gray\">mikannnnn</span>",
         ""
     ],
     "KUSunoki": [
-        "<span class=\"user-yellow\">KUSunoki (2196)</span>",
-        "<a href=\"https://atcoder.jp/users/misty1999\"><span class=\"user-yellow\">misty1999</span></a>",
+        "<span class=\"user-yellow\">2196</span>",
+        "<span class=\"user-yellow\">misty1999</span>",
         "tko_math",
-        "<a href=\"https://atcoder.jp/users/naniwazu\"><span class=\"user-yellow\">naniwazu</span></a>",
+        "<span class=\"user-yellow\">naniwazu</span>",
         ""
     ],
     "toxic": [
-        "<span class=\"user-yellow\">toxic (2016)</span>",
-        "<a href=\"https://atcoder.jp/users/toga57\"><span class=\"user-blue\">toga57</span></a>",
-        "<a href=\"https://atcoder.jp/users/untiunti\"><span class=\"user-blue\">untiunti</span></a>",
-        "<a href=\"https://atcoder.jp/users/xuelei\"><span class=\"user-blue\">xuelei</span></a>",
+        "<span class=\"user-yellow\">2016</span>",
+        "<span class=\"user-blue\">toga57</span>",
+        "<span class=\"user-blue\">untiunti</span>",
+        "<span class=\"user-blue\">xuelei</span>",
         ""
     ],
     "CUtest": [
-        "<span class=\"user-yellow\">CUtest (2233)</span>",
-        "<a href=\"https://atcoder.jp/users/hanyu\"><span class=\"user-yellow\">hanyu</span></a>",
-        "<a href=\"https://atcoder.jp/users/uytvcc\"><span class=\"user-green\">uytvcc</span></a>",
-        "<a href=\"https://atcoder.jp/users/stoq\"><span class=\"user-yellow\">stoq</span></a>",
+        "<span class=\"user-yellow\">2233</span>",
+        "<span class=\"user-yellow\">hanyu</span>",
+        "<span class=\"user-green\">uytvcc</span>",
+        "<span class=\"user-yellow\">stoq</span>",
         ""
     ],
     "UT a.k.a Is": [
-        "<span class=\"user-red\">UT a.k.a Is (3559)</span>",
-        "<img src=\"https://img.atcoder.jp/assets/icon/crown_gold.png\"/> <a href=\"https://atcoder.jp/users/yutaka1999\"><span class=\"user-red\">yutaka1999</span></a>",
-        "<img src=\"https://img.atcoder.jp/assets/icon/crown_bronze.png\"/> <a href=\"https://atcoder.jp/users/yokozuna57\"><span class=\"user-red\">yokozuna57</span></a>",
-        "<img src=\"https://img.atcoder.jp/assets/icon/crown_bronze.png\"/> <a href=\"https://atcoder.jp/users/IH19980412\"><span class=\"user-red\">IH19980412</span></a>",
-        "<img src=\"https://img.atcoder.jp/assets/icon/crown_bronze.png\"/> <a href=\"https://atcoder.jp/users/DEGwer\"><span class=\"user-red\">DEGwer</span></a>"
+        "<span class=\"user-red\">3559</span>",
+        "<img src=\"https://img.atcoder.jp/assets/icon/crown_gold.png\"/> <span class=\"user-red\">yutaka1999</span>",
+        "<img src=\"https://img.atcoder.jp/assets/icon/crown_bronze.png\"/> <span class=\"user-red\">yokozuna57</span>",
+        "<img src=\"https://img.atcoder.jp/assets/icon/crown_bronze.png\"/> <span class=\"user-red\">IH19980412</span>",
+        "<img src=\"https://img.atcoder.jp/assets/icon/crown_bronze.png\"/> <span class=\"user-red\">DEGwer</span>"
     ],
     "suzukaze_Aobayama": [
-        "<span class=\"user-yellow\">suzukaze_Aobayama (2340)</span>",
-        "<a href=\"https://atcoder.jp/users/sotanishy\"><span class=\"user-yellow\">sotanishy</span></a>",
-        "<a href=\"https://atcoder.jp/users/karinohito\"><span class=\"user-yellow\">karinohito</span></a>",
-        "<a href=\"https://atcoder.jp/users/mugen1337\"><span class=\"user-yellow\">mugen1337</span></a>",
+        "<span class=\"user-yellow\">2340</span>",
+        "<span class=\"user-yellow\">sotanishy</span>",
+        "<span class=\"user-yellow\">karinohito</span>",
+        "<span class=\"user-yellow\">mugen1337</span>",
         ""
     ],
     "The atama": [
-        "<span class=\"user-orange\">The atama (2683)</span>",
-        "<a href=\"https://atcoder.jp/users/Mister\"><span class=\"user-orange\">mister</span></a>",
-        "<a href=\"https://atcoder.jp/users/Enjapma\"><span class=\"user-yellow\">enjapma</span></a>",
-        "<a href=\"https://atcoder.jp/users/okura\"><span class=\"user-blue\">okura</span></a>",
-        "<img src=\"https://img.atcoder.jp/assets/icon/crown_bronze.png\"/> <a href=\"https://atcoder.jp/users/DEGwer\"><span class=\"user-red\">DEGwer</span></a>"
+        "<span class=\"user-orange\">2683</span>",
+        "<span class=\"user-orange\">mister</span>",
+        "<span class=\"user-yellow\">enjapma</span>",
+        "<span class=\"user-blue\">okura</span>",
+        "<img src=\"https://img.atcoder.jp/assets/icon/crown_bronze.png\"/> <span class=\"user-red\">DEGwer</span>"
     ],
     "oraCle_MaChine": [
-        "<span class=\"user-orange\">oraCle_MaChine (2777)</span>",
-        "<a href=\"https://atcoder.jp/users/carrot46\"><span class=\"user-orange\">carrot46</span></a>",
-        "<a href=\"https://atcoder.jp/users/cuthbert\"><span class=\"user-orange\">cuthbert</span></a>",
-        "<a href=\"https://atcoder.jp/users/Motsu_xe\"><span class=\"user-orange\">Motsu_xe</span></a>",
-        "<img src=\"https://img.atcoder.jp/assets/icon/crown_bronze.png\"/> <a href=\"https://atcoder.jp/users/DEGwer\"><span class=\"user-red\">DEGwer</span></a>"
+        "<span class=\"user-orange\">2777</span>",
+        "<span class=\"user-orange\">carrot46</span>",
+        "<span class=\"user-orange\">cuthbert</span>",
+        "<span class=\"user-orange\">Motsu_xe</span>",
+        "<img src=\"https://img.atcoder.jp/assets/icon/crown_bronze.png\"/> <span class=\"user-red\">DEGwer</span>"
     ],
     "niu_mogu_mogu": [
-        "<span class=\"user-yellow\">niu_mogu_mogu (2003)</span>",
-        "<a href=\"https://atcoder.jp/users/niuez\"><span class=\"user-blue\">niuez</span></a>",
-        "<a href=\"https://atcoder.jp/users/playroller\"><span class=\"user-cyan\">playroller</span></a>",
-        "<a href=\"https://atcoder.jp/users/ugis\"><span class=\"user-cyan\">ugis</span></a>",
+        "<span class=\"user-yellow\">2003</span>",
+        "<span class=\"user-blue\">niuez</span>",
+        "<span class=\"user-cyan\">playroller</span>",
+        "<span class=\"user-cyan\">ugis</span>",
         ""
     ],
     "TUT": [
-        "<span class=\"user-gray\">TUT (234)</span>",
+        "<span class=\"user-gray\">234</span>",
         "TT@TT_beginner",
         "s_ktmy",
         "mi6112ogit",
         ""
     ],
     "SPJ": [
-        "<span class=\"user-orange\">SPJ (2602)</span>",
-        "<a href=\"https://atcoder.jp/users/Kite_kuma\"><span class=\"user-orange\">Kite_kuma</span></a>",
-        "<a href=\"https://atcoder.jp/users/zkou\"><span class=\"user-yellow\">zkou</span></a>",
-        "<a href=\"https://atcoder.jp/users/nok0\"><span class=\"user-yellow\">nok0</span></a>",
-        "<img src=\"https://img.atcoder.jp/assets/icon/crown_bronze.png\"/> <a href=\"https://atcoder.jp/users/DEGwer\"><span class=\"user-red\">DEGwer</span></a>"
+        "<span class=\"user-orange\">2602</span>",
+        "<span class=\"user-orange\">Kite_kuma</span>",
+        "<span class=\"user-yellow\">zkou</span>",
+        "<span class=\"user-yellow\">nok0</span>",
+        "<img src=\"https://img.atcoder.jp/assets/icon/crown_bronze.png\"/> <span class=\"user-red\">DEGwer</span>"
     ],
     "Royal Blue": [
-        "<span class=\"user-yellow\">Royal Blue (2117)</span>",
-        "<a href=\"https://atcoder.jp/users/NOSS\"><span class=\"user-yellow\">NOSS</span></a>",
-        "<a href=\"https://atcoder.jp/users/mhrb\"><span class=\"user-blue\">mhrb</span></a>",
-        "<a href=\"https://atcoder.jp/users/Rogi\"><span class=\"user-cyan\">Rogi</span></a>",
-        "<a href=\"https://atcoder.jp/users/ToM\"><span class=\"user-unrated\">tom</span></a>"
+        "<span class=\"user-yellow\">2117</span>",
+        "<span class=\"user-yellow\">NOSS</span>",
+        "<span class=\"user-blue\">mhrb</span>",
+        "<span class=\"user-cyan\">Rogi</span>",
+        "<span class=\"user-unrated\">tom</span>"
     ],
     "tSp": [
-        "<span class=\"user-orange\">tSp (2662)</span>",
-        "<a href=\"https://atcoder.jp/users/Tqk\"><span class=\"user-blue\">Tqk</span></a>",
-        "<a href=\"https://atcoder.jp/users/SSlime\"><span class=\"user-yellow\">SSlime</span></a>",
-        "<a href=\"https://atcoder.jp/users/potato167\"><span class=\"user-orange\">potato167</span></a>",
-        "<a href=\"https://atcoder.jp/users/ninja7\"><span class=\"user-yellow\">ninja7</span></a>"
+        "<span class=\"user-orange\">2662</span>",
+        "<span class=\"user-blue\">Tqk</span>",
+        "<span class=\"user-yellow\">SSlime</span>",
+        "<span class=\"user-orange\">potato167</span>",
+        "<span class=\"user-yellow\">ninja7</span>"
     ],
     "202 Accepted": [
-        "<span class=\"user-yellow\">202 Accepted (2128)</span>",
-        "<a href=\"https://atcoder.jp/users/auaua\"><span class=\"user-yellow\">auaua</span></a>",
+        "<span class=\"user-yellow\">2128</span>",
+        "<span class=\"user-yellow\">auaua</span>",
         "Hayato_Y",
-        "<a href=\"https://atcoder.jp/users/centipede_human\"><span class=\"user-blue\">centipede_human</span></a>",
+        "<span class=\"user-blue\">centipede_human</span>",
         ""
     ],
     "parsley party": [
-        "<span class=\"user-blue\">parsley party (1949)</span>",
-        "<a href=\"https://atcoder.jp/users/cunitac\"><span class=\"user-blue\">cunitac</span></a>",
-        "<a href=\"https://atcoder.jp/users/y61mpnl\"><span class=\"user-cyan\">y61mpnl</span></a>",
-        "<a href=\"https://atcoder.jp/users/Raclamusi\"><span class=\"user-cyan\">Raclamusi</span></a>",
+        "<span class=\"user-blue\">1949</span>",
+        "<span class=\"user-blue\">cunitac</span>",
+        "<span class=\"user-cyan\">y61mpnl</span>",
+        "<span class=\"user-cyan\">Raclamusi</span>",
         ""
     ],
     "OsakaUnivSaikyoTeam": [
-        "<span class=\"user-yellow\">OsakaUnivSaikyoTeam (2059)</span>",
-        "<a href=\"https://atcoder.jp/users/KowerKoint\"><span class=\"user-yellow\">KowerKoint</span></a>",
-        "<a href=\"https://atcoder.jp/users/Yoika\"><span class=\"user-blue\">Yoika</span></a>",
-        "<a href=\"https://atcoder.jp/users/pelno\"><span class=\"user-cyan\">pelno</span></a>",
+        "<span class=\"user-yellow\">2059</span>",
+        "<span class=\"user-yellow\">KowerKoint</span>",
+        "<span class=\"user-blue\">Yoika</span>",
+        "<span class=\"user-cyan\">pelno</span>",
+        ""
+    ],
+    "Simulated Annealing": [
+        "<span class=\"user-yellow\">2339</span>",
+        "<span class=\"user-yellow\">cirno3153</span>",
+        "<span class=\"user-blue\">hexa0611</span>",
+        "<span class=\"user-blue\">srtubaki</span>",
+        ""
+    ],
+    "MATHKU": [
+        "<span class=\"user-orange\">2482</span>",
+        "<span class=\"user-orange\">se1ka2</span>",
+        "<span class=\"user-yellow\">shakayami</span>",
+        "\u4eac\u5927\u56de\u6587\u90e8",
         ""
     ]
 }
