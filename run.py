@@ -126,6 +126,8 @@ def getUserSpan(username, enableLink):
     if enableLink:
         return f'{icon}<a href="{ulink}">{str(uinfo.span)}</a>'
     else:
+        if icon.endswith(' '):
+            icon = icon[:-1]
         return f'{icon}{str(uinfo.span)}'
 
 
