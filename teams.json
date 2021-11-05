@@ -292,5 +292,33 @@
         "<span class=\"user-yellow\">ha15</span>",
         "<span class=\"user-blue\">Yukly</span>",
         "<span class=\"user-blue\">AokabiC</span>"
+    ],
+    "HigaKoder": [
+        "<span class=\"user-cyan\">1482</span>",
+        "<span class=\"user-green\">Nanashima</span>",
+        "<span class=\"user-cyan\">Pech1</span>",
+        "<span class=\"user-cyan\">harurun</span>",
+        ""
+    ],
+    "PWMtree": [
+        "<span class=\"user-yellow\">2226</span>",
+        "<span class=\"user-yellow\">holeguma</span>",
+        "masayoshi361",
+        "<span class=\"user-yellow\">packer_jp</span>",
+        "<img src=\"https://img.atcoder.jp/assets/icon/crown_bronze.png\"/><span class=\"user-red\">DEGwer</span>"
+    ],
+    "shichifuku": [
+        "<span class=\"user-blue\">1891</span>",
+        "<span class=\"user-blue\">Shuzaei</span>",
+        "<span class=\"user-cyan\">nope124</span>",
+        "<span class=\"user-blue\">ruthen71</span>",
+        ""
+    ],
+    "SiMoJappy": [
+        "<span class=\"user-yellow\">2354</span>",
+        "<span class=\"user-yellow\">simkaren</span>",
+        "<span class=\"user-yellow\">Mojumbo</span>",
+        "<span class=\"user-blue\">juppy</span>",
+        ""
     ]
 }
