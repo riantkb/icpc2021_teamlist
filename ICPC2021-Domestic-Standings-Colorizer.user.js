@@ -63,9 +63,7 @@ function main() {
             }
             if (pass > 0) {
                 txt += "<br>" + pass + "Pass! ";
-                if (pass == 1) {
-                    pass_count++;
-                }
+                pass_count++;
             }
             e.innerHTML += txt;
         }
