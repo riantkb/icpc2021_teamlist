@@ -132,7 +132,7 @@
         "<span class=\"user-orange\">yamunaku</span>",
         ""
     ],
-    "SumimaSenDeshita": [
+    "SumimaSenDesita": [
         "<span class=\"user-yellow\">2020</span>",
         "<span class=\"user-yellow\">shibh308</span>",
         "hamuheiham",
@@ -293,17 +293,10 @@
         "<span class=\"user-blue\">Yukly</span>",
         "<span class=\"user-blue\">AokabiC</span>"
     ],
-    "HigaKoder": [
-        "<span class=\"user-cyan\">1482</span>",
-        "<span class=\"user-green\">Nanashima</span>",
-        "<span class=\"user-cyan\">Pech1</span>",
-        "<span class=\"user-cyan\">harurun</span>",
-        ""
-    ],
     "PWMtree": [
-        "<span class=\"user-yellow\">2226</span>",
+        "<span class=\"user-yellow\">2336</span>",
         "<span class=\"user-yellow\">holeguma</span>",
-        "masayoshi361",
+        "<span class=\"user-yellow\">masayoshi64</span>",
         "<span class=\"user-yellow\">packer_jp</span>",
         "<img src=\"https://img.atcoder.jp/assets/icon/crown_bronze.png\"/><span class=\"user-red\">DEGwer</span>"
     ],
@@ -319,6 +312,13 @@
         "<span class=\"user-yellow\">simkaren</span>",
         "<span class=\"user-yellow\">Mojumbo</span>",
         "<span class=\"user-blue\">juppy</span>",
+        ""
+    ],
+    "HigaKoder": [
+        "<span class=\"user-cyan\">1482</span>",
+        "<span class=\"user-green\">Nanashima</span>",
+        "<span class=\"user-cyan\">Pech1</span>",
+        "<span class=\"user-cyan\">harurun</span>",
         ""
     ],
     "Semi-Retired": [
@@ -341,5 +341,19 @@
         "<span class=\"user-yellow\">eiya</span>",
         "<span class=\"user-cyan\">Return_Hao</span>",
         "<span class=\"user-yellow\">ninja7</span>"
+    ],
+    "monkukui": [
+        "<span class=\"user-gray\">234</span>",
+        "@N___hara",
+        "@recososos",
+        "@RVindicatio",
+        "<span class=\"user-yellow\">monkukui</span>"
+    ],
+    "GIP": [
+        "<span class=\"user-yellow\">2055</span>",
+        "<span class=\"user-blue\">ganmodokix</span>",
+        "<span class=\"user-blue\">pitsu</span>",
+        "<span class=\"user-blue\">itigo</span>",
+        "<span class=\"user-yellow\">TAB</span>"
     ]
 }
