@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         ICPC 2021 Domestic Standings Colorizer
-// @namespace    http://tampermonkey.net/
-// @version      0.3
+// @namespace    https://github.com/riantkb
+// @version      0.4
 // @description  ICPC 2021 Domestic Standings Colorizer
 // @author       riantkb
 // @match        http://www.yamagula.ic.i.u-tokyo.ac.jp/icpc2021/standings.html
@@ -62,7 +62,7 @@ function main() {
                 host = "";
             }
             if (pass > 0) {
-                txt += "<br>" + pass + "Pass! "; 
+                txt += "<br>" + pass + "Pass! ";
                 if (pass == 1) {
                     pass_count++;
                 }
