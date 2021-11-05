@@ -17,6 +17,11 @@ function main() {
         setTimeout(main, 300);
         return;
     }
+    var univ_matches = document.querySelectorAll("td.main > div > table > tbody > tr > td:nth-child(4)");
+    if (univ_matches.length == 0) {
+        setTimeout(main, 300);
+        return;
+    }
     fetch("https://raw.githubusercontent.com/riantkb/icpc2021_teamlist/master/teams.json", {cache: "no-store"}).then(res => {res.json().then(team_dic => {
         for (const e of matches) {
             if (e == null) continue;
@@ -24,6 +29,45 @@ function main() {
             if (tname in team_dic) {
                 e.innerHTML = e.innerHTML.replace(tname, `${tname} (${team_dic[tname][0]})<br>${team_dic[tname].slice(1).join(', ')}`)
             }
+        }
+        var univ_count = [];
+        var grank = -1;
+        var pass_count = 0;
+        var host = "Keio University";
+        for (const e of univ_matches) {
+            if (e == null) continue;
+            ++grank;
+            if (grank == 0) continue;
+            var uname = e.innerText.split("\n")[0];
+            var urank;
+            if (uname in univ_count) {
+                urank = univ_count[uname] + 1;
+            } else {
+                urank = 1;
+            }
+            univ_count[uname] = urank;
+            var txt = "<br>\nUniv Rank: " + urank;
+            var pass = 0;
+            if (pass_count <= 10) {
+                pass = 1;
+            } else if(pass_count < 20) {
+                if (urank <= 3) pass = 1;
+            } else if(pass_count < 30) {
+                if (urank <= 2) pass = 1;
+            } else if(pass_count < 39) {
+                if (urank <= 1) pass = 1;
+            }
+            if(pass == 0 && uname == host) {
+                pass = 2;
+                host = "";
+            }
+            if (pass > 0) {
+                txt += "<br>" + pass + "Pass! "; 
+                if (pass == 1) {
+                    pass_count++;
+                }
+            }
+            e.innerHTML += txt;
         }
         for(let e of document.getElementsByClassName('user-red'    )){e.style.color="#FF0000"};
         for(let e of document.getElementsByClassName('user-orange' )){e.style.color="#FF8000"};
