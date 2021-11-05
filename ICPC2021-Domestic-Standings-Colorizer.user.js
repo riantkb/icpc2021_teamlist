@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         ICPC 2021 Domestic Standings Colorizer
 // @namespace    http://tampermonkey.net/
-// @version      0.4
+// @version      0.4.1
 // @description  ICPC 2021 Domestic Standings Colorizer
 // @author       riantkb
 // @match        http://www.yamagula.ic.i.u-tokyo.ac.jp/icpc2021/standings.html
