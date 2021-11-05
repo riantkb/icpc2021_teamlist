@@ -4,6 +4,7 @@ import pandas as pd
 from bs4 import BeautifulSoup
 import time
 import datetime
+import json
 import pickle
 
 import rating_utils
@@ -119,10 +120,10 @@ def getUserSpan(username):
         icon = icon.replace(
             '//img.atcoder.jp/assets/icon/crown_',
             'https://img.atcoder.jp/assets/icon/crown_'
-        )
+        ) + ' '
     else:
         icon = ''
-    return f'{icon} <a href="{ulink}">{str(uinfo.span)}</a>'
+    return f'{icon}<a href="{ulink}">{str(uinfo.span)}</a>'
 
 
 url = 'https://jag-icpc.org/?2021%2FTeams%2FList'
@@ -131,17 +132,24 @@ df = df.rename(columns={'メンバー 1': 'メンバー1', 'コーチ，ココ�
 res_df = df.copy()
 user_columns = ['メンバー1', 'メンバー2', 'メンバー3', 'コーチ']
 res_df['チームレート'] = ''
+res_dict = {}
 for i in range(len(df)):
+    spans = []
     for c in user_columns:
         username = df[c][i]
-        res_df.loc[res_df.index[i], c] = getUserSpan(username)
+        span = getUserSpan(username)
+        res_df.loc[res_df.index[i], c] = span
+        spans.append(span)
+
     ratings = []
     for c in user_columns[:-1]:
         username = df[c][i]
         ratings.append(getUserRate(username))
 
-    res_df.loc[res_df.index[i], 'チームレート'] = convertFromRatingToSpan(
-        int(rating_utils.aggregateRatings(ratings)))
+    rat = convertFromRatingToSpan(int(rating_utils.aggregateRatings(ratings)))
+    res_df.loc[res_df.index[i], 'チームレート'] = rat
+    spans = [rat] + spans
+    res_dict[df['チーム名'][i]] = spans
 
 res_df = res_df.reindex(
     columns=[
@@ -202,6 +210,9 @@ $(document).ready(function() {
 
 with open('index.html', 'w') as f:
     f.write(complete_html)
+
+with open('teams.json', 'w') as f:
+    json.dump(res_dict, f, indent=4)
 
 with open(pickle_path, 'wb') as f:
     pickle.dump(pickle_atcoder, f)
