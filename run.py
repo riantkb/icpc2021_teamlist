@@ -146,9 +146,11 @@ for i in range(len(df)):
         username = df[c][i]
         ratings.append(getUserRate(username))
 
-    rat = convertFromRatingToSpan(int(rating_utils.aggregateRatings(ratings)))
+    team_rating = int(rating_utils.aggregateRatings(ratings))
+    rat = convertFromRatingToSpan(team_rating)
     res_df.loc[res_df.index[i], 'チームレート'] = rat
-    spans = [rat] + spans
+    spans = [rat.replace(str(team_rating),
+                         f"{df['チーム名'][i]} ({team_rating})")] + spans
     res_dict[df['チーム名'][i]] = spans
 
 res_df = res_df.reindex(
