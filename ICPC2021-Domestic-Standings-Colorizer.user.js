@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         ICPC 2021 Domestic Standings Colorizer
 // @namespace    http://tampermonkey.net/
-// @version      0.5
+// @version      0.6
 // @description  ICPC 2021 Domestic Standings Colorizer
 // @author       riantkb
 // @match        http://www.yamagula.ic.i.u-tokyo.ac.jp/icpc2021/standings.html
@@ -12,41 +12,72 @@
 
 function main() {
     console.log("main")
-    var matches = document.querySelectorAll("td.main > div > table > tbody > tr > td:nth-child(3)");
-    if (matches.length == 0) {
+    var lines = document.querySelectorAll("td.main > div > table > tbody > tr");
+    if (lines.length == 0) {
         setTimeout(main, 300);
         return;
     }
-    var univ_matches = document.querySelectorAll("td.main > div > table > tbody > tr > td:nth-child(4)");
-    if (univ_matches.length == 0) {
-        setTimeout(main, 300);
-        return;
-    }
+    // var matches = document.querySelectorAll("td.main > div > table > tbody > tr > td:nth-child(3)");
+    // var univ_matches = document.querySelectorAll("td.main > div > table > tbody > tr > td:nth-child(4)");
+    // if (univ_matches.length == 0) {
+    //     setTimeout(main, 300);
+    //     return;
+    // }
     fetch("https://raw.githubusercontent.com/riantkb/icpc2021_teamlist/master/teams.json", {cache: "no-store"}).then(res => {res.json().then(team_dic => {
-        for (const e of matches) {
+        var first;
+        first = true;
+        for (const e of lines) {
+            if (first) {
+                first = false;
+                continue
+            }
             if (e == null) continue;
-            var tname = e.innerText.split("\n")[0];
+            var a = e.querySelector('td:nth-child(3)')
+            if (a == null) continue;
+            var tname = a.innerText.split("\n")[0];
             if (tname in team_dic) {
-                e.innerHTML = e.innerHTML.replace(tname, `${tname} (${team_dic[tname][0]})<br>${team_dic[tname].slice(1).join(', ')}`)
+                a.innerHTML += ` (${team_dic[tname][0]})<br>${team_dic[tname].slice(1).join(', ')}`
             }
         }
         var univ_count = [];
-        var grank = -1;
+        first = true;
+        for (const e of lines) {
+            if (first) {
+                first = false;
+                continue
+            }
+            if (e == null) continue;
+            var a = e.querySelector('td:nth-child(4)')
+            if (a == null) continue;
+            var uname = a.innerText.split("\n")[0];
+            if (uname in univ_count) {
+                univ_count[uname] += 1;
+            } else {
+                univ_count[uname] = 1;
+            }
+        }
+        var univ_rank = [];
         var pass_count = 0;
         var host = "Keio University";
-        for (const e of univ_matches) {
+        first = true;
+        for (const e of lines) {
+            if (first) {
+                first = false;
+                continue
+            }
             if (e == null) continue;
-            ++grank;
-            if (grank == 0) continue;
-            var uname = e.innerText.split("\n")[0];
+            var a = e.querySelector('td:nth-child(4)')
+            if (a == null) continue;
+            var uname = a.innerText.split("\n")[0];
             var urank;
-            if (uname in univ_count) {
-                urank = univ_count[uname] + 1;
+            if (uname in univ_rank) {
+                urank = univ_rank[uname] + 1;
             } else {
                 urank = 1;
             }
-            univ_count[uname] = urank;
-            var txt = "<br>\nUniv Rank: " + urank;
+            univ_rank[uname] = urank;
+            a.innerHTML += ` (${urank}/${univ_count[uname]})`
+
             var pass = 0;
             if (pass_count < 10) {
                 pass = 1;
@@ -62,12 +93,15 @@ function main() {
                 host = "";
             }
             if (pass > 0) {
-                txt += "<br>" + pass + "Pass! ";
+                var b = e.querySelector('td:nth-child(1)')
+                b.setAttribute('bgcolor', '#AAE0AA')
                 if (pass == 1) {
                     pass_count++;
                 }
+                else {
+                    b.innerHTML += '*'
+                }
             }
-            e.innerHTML += txt;
         }
         for(let e of document.getElementsByClassName('user-red'    )){e.style.color="#FF0000"};
         for(let e of document.getElementsByClassName('user-orange' )){e.style.color="#FF8000"};
