@@ -43,7 +43,7 @@ def convertFromRatingToSpan(rating):
 def fetchUserPage(ulink):
     if (ulink in pickle_atcoder
         and datetime.datetime.now() - pickle_atcoder[ulink]['datetime']
-            < datetime.timedelta(hours=12)):
+            < datetime.timedelta(days=2)):
         # print(f'pickle loaded    link: {ulink}', file=sys.stderr)
         response = pickle_atcoder[ulink]['response']
     else:
