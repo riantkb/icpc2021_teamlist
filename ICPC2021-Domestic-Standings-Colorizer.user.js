@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         ICPC 2021 Domestic Standings Colorizer
-// @namespace    https://github.com/riantkb
+// @namespace    http://tampermonkey.net/
 // @version      0.4
 // @description  ICPC 2021 Domestic Standings Colorizer
 // @author       riantkb
