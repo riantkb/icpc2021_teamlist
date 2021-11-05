@@ -48,7 +48,7 @@ function main() {
             univ_count[uname] = urank;
             var txt = "<br>\nUniv Rank: " + urank;
             var pass = 0;
-            if (pass_count <= 10) {
+            if (pass_count < 10) {
                 pass = 1;
             } else if(pass_count < 20) {
                 if (urank <= 3) pass = 1;
