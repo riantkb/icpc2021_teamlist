@@ -10,7 +10,6 @@ import rating_utils
 
 valid_chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789_'
 
-
 pickle_path = 'atcoder.pickle'
 
 pickle_atcoder = {}
@@ -61,14 +60,25 @@ def fetchUserPage(ulink):
 def getUserRate(username):
     if not username:
         return 0
-    reqname = ''.join([c for c in username if c in valid_chars])
+    reqname = ''.join(c for c in username if c in valid_chars)
     if reqname == '':
         return 0
 
     ulink = f'https://atcoder.jp/users/{reqname}'
     response = fetchUserPage(ulink)
     if response.status_code != requests.codes.ok:
-        return 0
+        ok = False
+        if '@' in username:
+            for s in username.split('@'):
+                reqname = ''.join(c for c in s if c in valid_chars)
+                if reqname != '':
+                    ulink = f'https://atcoder.jp/users/{reqname}'
+                    response = fetchUserPage(ulink)
+                    if response.status_code == requests.codes.ok:
+                        ok = True
+                        break
+        if not ok:
+            return 0
     df = pd.read_html(response.text)
     if len(df) < 2:
         # unrated user
@@ -82,14 +92,25 @@ def getUserRate(username):
 def getUserSpan(username):
     if not username:
         return ''
-    reqname = ''.join([c for c in username if c in valid_chars])
+    reqname = ''.join(c for c in username if c in valid_chars)
     if reqname == '':
         return username
 
     ulink = f'https://atcoder.jp/users/{reqname}'
     response = fetchUserPage(ulink)
     if response.status_code != requests.codes.ok:
-        return username
+        ok = False
+        if '@' in username:
+            for s in username.split('@'):
+                reqname = ''.join(c for c in s if c in valid_chars)
+                if reqname != '':
+                    ulink = f'https://atcoder.jp/users/{reqname}'
+                    response = fetchUserPage(ulink)
+                    if response.status_code == requests.codes.ok:
+                        ok = True
+                        break
+        if not ok:
+            return username
 
     soup = BeautifulSoup(response.text, 'html.parser')
     uinfo = soup.select_one('a.username')
