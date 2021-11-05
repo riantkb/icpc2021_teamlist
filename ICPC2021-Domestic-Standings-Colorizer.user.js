@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         ICPC 2021 Domestic Standings Colorizer
 // @namespace    http://tampermonkey.net/
-// @version      0.5
+// @version      0.6
 // @description  ICPC 2021 Domestic Standings Colorizer
 // @author       riantkb
 // @match        http://www.yamagula.ic.i.u-tokyo.ac.jp/icpc2021/standings.html
@@ -33,7 +33,7 @@ function main() {
             }
             if (e == null) continue;
             var a = e.querySelector('td:nth-child(3)')
-            if (a != null) continue;
+            if (a == null) continue;
             var tname = a.innerText.split("\n")[0];
             if (tname in team_dic) {
                 a.innerHTML += ` (${team_dic[tname][0]})<br>${team_dic[tname].slice(1).join(', ')}`
@@ -48,7 +48,7 @@ function main() {
             }
             if (e == null) continue;
             var a = e.querySelector('td:nth-child(4)')
-            if (a != null) continue;
+            if (a == null) continue;
             var uname = a.innerText.split("\n")[0];
             if (uname in univ_count) {
                 univ_count[uname] += 1;
@@ -67,7 +67,7 @@ function main() {
             }
             if (e == null) continue;
             var a = e.querySelector('td:nth-child(4)')
-            if (a != null) continue;
+            if (a == null) continue;
             var uname = a.innerText.split("\n")[0];
             var urank;
             if (uname in univ_rank) {
@@ -76,7 +76,7 @@ function main() {
                 urank = 1;
             }
             univ_rank[uname] = urank;
-            a.innerText += ` (${urank}/${univ_count[uname]})`
+            a.innerHTML += ` (${urank}/${univ_count[uname]})`
 
             var pass = 0;
             if (pass_count < 10) {
