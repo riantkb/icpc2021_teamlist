@@ -36,8 +36,8 @@
     ],
     "tonosama": [
         "<span class=\"user-red\">3204</span>",
-        "<img src=\"https://img.atcoder.jp/assets/icon/crown_bronze.png\"/> <span class=\"user-red\">noshi91</span>",
-        "<img src=\"https://img.atcoder.jp/assets/icon/crown_bronze.png\"/> <span class=\"user-red\">tatyam</span>",
+        "<img src=\"https://img.atcoder.jp/assets/icon/crown_bronze.png\"/><span class=\"user-red\">noshi91</span>",
+        "<img src=\"https://img.atcoder.jp/assets/icon/crown_bronze.png\"/><span class=\"user-red\">tatyam</span>",
         "<span class=\"user-yellow\">goodbaton</span>",
         "<span class=\"user-yellow\">ninja7</span>"
     ],
@@ -120,14 +120,14 @@
     ],
     "KOMOREBI": [
         "<span class=\"user-red\">2978</span>",
-        "<img src=\"https://img.atcoder.jp/assets/icon/crown_bronze.png\"/> <span class=\"user-red\">noimi</span>",
+        "<img src=\"https://img.atcoder.jp/assets/icon/crown_bronze.png\"/><span class=\"user-red\">noimi</span>",
         "<span class=\"user-orange\">mechanicalpenciI</span>",
         "<span class=\"user-orange\">jell</span>",
-        "<img src=\"https://img.atcoder.jp/assets/icon/crown_bronze.png\"/> <span class=\"user-red\">DEGwer</span>"
+        "<img src=\"https://img.atcoder.jp/assets/icon/crown_bronze.png\"/><span class=\"user-red\">DEGwer</span>"
     ],
     "Heno World": [
         "<span class=\"user-red\">3239</span>",
-        "<img src=\"https://img.atcoder.jp/assets/icon/crown_silver.png\"/> <span style=\"color:#6BB75B;\">heno239</span>",
+        "<img src=\"https://img.atcoder.jp/assets/icon/crown_silver.png\"/><span style=\"color:#6BB75B;\">heno239</span>",
         "<span class=\"user-orange\">moririn2528</span>",
         "<span class=\"user-orange\">yamunaku</span>",
         ""
@@ -176,10 +176,10 @@
     ],
     "UT a.k.a Is": [
         "<span class=\"user-red\">3559</span>",
-        "<img src=\"https://img.atcoder.jp/assets/icon/crown_gold.png\"/> <span class=\"user-red\">yutaka1999</span>",
-        "<img src=\"https://img.atcoder.jp/assets/icon/crown_bronze.png\"/> <span class=\"user-red\">yokozuna57</span>",
-        "<img src=\"https://img.atcoder.jp/assets/icon/crown_bronze.png\"/> <span class=\"user-red\">IH19980412</span>",
-        "<img src=\"https://img.atcoder.jp/assets/icon/crown_bronze.png\"/> <span class=\"user-red\">DEGwer</span>"
+        "<img src=\"https://img.atcoder.jp/assets/icon/crown_gold.png\"/><span class=\"user-red\">yutaka1999</span>",
+        "<img src=\"https://img.atcoder.jp/assets/icon/crown_bronze.png\"/><span class=\"user-red\">yokozuna57</span>",
+        "<img src=\"https://img.atcoder.jp/assets/icon/crown_bronze.png\"/><span class=\"user-red\">IH19980412</span>",
+        "<img src=\"https://img.atcoder.jp/assets/icon/crown_bronze.png\"/><span class=\"user-red\">DEGwer</span>"
     ],
     "suzukaze_Aobayama": [
         "<span class=\"user-yellow\">2340</span>",
@@ -193,14 +193,14 @@
         "<span class=\"user-orange\">mister</span>",
         "<span class=\"user-yellow\">enjapma</span>",
         "<span class=\"user-blue\">okura</span>",
-        "<img src=\"https://img.atcoder.jp/assets/icon/crown_bronze.png\"/> <span class=\"user-red\">DEGwer</span>"
+        "<img src=\"https://img.atcoder.jp/assets/icon/crown_bronze.png\"/><span class=\"user-red\">DEGwer</span>"
     ],
     "oraCle_MaChine": [
         "<span class=\"user-orange\">2777</span>",
         "<span class=\"user-orange\">carrot46</span>",
         "<span class=\"user-orange\">cuthbert</span>",
         "<span class=\"user-orange\">Motsu_xe</span>",
-        "<img src=\"https://img.atcoder.jp/assets/icon/crown_bronze.png\"/> <span class=\"user-red\">DEGwer</span>"
+        "<img src=\"https://img.atcoder.jp/assets/icon/crown_bronze.png\"/><span class=\"user-red\">DEGwer</span>"
     ],
     "niu_mogu_mogu": [
         "<span class=\"user-yellow\">2003</span>",
@@ -210,9 +210,9 @@
         ""
     ],
     "TUT": [
-        "<span class=\"user-gray\">234</span>",
-        "TT@TT_beginner",
-        "s_ktmy",
+        "<span class=\"user-green\">1192</span>",
+        "<span class=\"user-green\">side</span>",
+        "<span class=\"user-green\">sgtn_kh</span>",
         "mi6112ogit",
         ""
     ],
@@ -221,7 +221,7 @@
         "<span class=\"user-orange\">Kite_kuma</span>",
         "<span class=\"user-yellow\">zkou</span>",
         "<span class=\"user-yellow\">nok0</span>",
-        "<img src=\"https://img.atcoder.jp/assets/icon/crown_bronze.png\"/> <span class=\"user-red\">DEGwer</span>"
+        "<img src=\"https://img.atcoder.jp/assets/icon/crown_bronze.png\"/><span class=\"user-red\">DEGwer</span>"
     ],
     "Royal Blue": [
         "<span class=\"user-yellow\">2117</span>",
@@ -285,5 +285,12 @@
         "<span class=\"user-green\">Higurashi</span>",
         "<span class=\"user-cyan\">polyester</span>",
         ""
+    ],
+    "Aobayama_dropout": [
+        "<span class=\"user-red\">2855</span>",
+        "<span class=\"user-red\">kotatsugame</span>",
+        "<span class=\"user-yellow\">ha15</span>",
+        "<span class=\"user-blue\">Yukly</span>",
+        "<span class=\"user-blue\">AokabiC</span>"
     ]
 }
