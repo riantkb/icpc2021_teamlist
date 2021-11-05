@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         ICPC 2021 Domestic Standings Colorizer
 // @namespace    http://tampermonkey.net/
-// @version      0.2
+// @version      0.3
 // @description  ICPC 2021 Domestic Standings Colorizer
 // @author       riantkb
 // @match        http://www.yamagula.ic.i.u-tokyo.ac.jp/icpc2021/standings.html
@@ -22,7 +22,7 @@ function main() {
             if (e == null) continue;
             var tname = e.innerText.split("\n")[0];
             if (tname in team_dic) {
-                e.innerHTML = e.innerHTML.replace(tname, `${team_dic[tname][0]}<br>${team_dic[tname].slice(1).join(', ')}`)
+                e.innerHTML = e.innerHTML.replace(tname, `${tname} (${team_dic[tname][0]})<br>${team_dic[tname].slice(1).join(', ')}`)
             }
         }
         for(let e of document.getElementsByClassName('user-red'    )){e.style.color="#FF0000"};

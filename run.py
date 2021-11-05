@@ -90,7 +90,7 @@ def getUserRate(username):
     return int(rating)
 
 
-def getUserSpan(username):
+def getUserSpan(username, enableLink):
     if not username:
         return ''
     reqname = ''.join(c for c in username if c in valid_chars)
@@ -123,7 +123,10 @@ def getUserSpan(username):
         ) + ' '
     else:
         icon = ''
-    return f'{icon}<a href="{ulink}">{str(uinfo.span)}</a>'
+    if enableLink:
+        return f'{icon}<a href="{ulink}">{str(uinfo.span)}</a>'
+    else:
+        return f'{icon}{str(uinfo.span)}'
 
 
 url = 'https://jag-icpc.org/?2021%2FTeams%2FList'
@@ -134,12 +137,9 @@ user_columns = ['メンバー1', 'メンバー2', 'メンバー3', 'コーチ']
 res_df['チームレート'] = ''
 res_dict = {}
 for i in range(len(df)):
-    spans = []
     for c in user_columns:
         username = df[c][i]
-        span = getUserSpan(username)
-        res_df.loc[res_df.index[i], c] = span
-        spans.append(span)
+        res_df.loc[res_df.index[i], c] = getUserSpan(username, True)
 
     ratings = []
     for c in user_columns[:-1]:
@@ -149,8 +149,11 @@ for i in range(len(df)):
     team_rating = int(rating_utils.aggregateRatings(ratings))
     rat = convertFromRatingToSpan(team_rating)
     res_df.loc[res_df.index[i], 'チームレート'] = rat
-    spans = [rat.replace(str(team_rating),
-                         f"{df['チーム名'][i]} ({team_rating})")] + spans
+    spans = [rat]
+    for c in user_columns:
+        username = df[c][i]
+        spans.append(getUserSpan(username, False))
+
     res_dict[df['チーム名'][i]] = spans
 
 res_df = res_df.reindex(
