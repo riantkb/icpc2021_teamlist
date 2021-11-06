@@ -362,5 +362,12 @@
         "<span class=\"user-cyan\">kururin_20</span>",
         "<span class=\"user-green\">Anko</span>",
         "<span class=\"user-yellow\">ninja7</span>"
+    ],
+    "we_love_camel_case": [
+        "<span class=\"user-blue\">1851</span>",
+        "<span class=\"user-blue\">Aslan168</span>",
+        "<span class=\"user-blue\">Powerword</span>",
+        "<span class=\"user-cyan\">Sma</span>",
+        "<img src=\"https://img.atcoder.jp/assets/icon/crown_bronze.png\"/><span class=\"user-red\">DEGwer</span>"
     ]
 }
