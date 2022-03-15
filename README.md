@@ -1,5 +1,8 @@
 # icpc2021_teamlist
 
+## This has been archived. Please use https://github.com/riantkb/icpc_standing_colorizer.
+
+
 ## html
 - https://riantkb.github.io/icpc2021_teamlist/
 
