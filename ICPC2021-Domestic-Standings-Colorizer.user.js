@@ -125,6 +125,6 @@ function main() {
     'use strict';
     // Your code here...
 
-    setTimeout(main, 500);
+    // setTimeout(main, 500);
 })();
 
